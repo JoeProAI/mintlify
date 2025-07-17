@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "description": "VitalMatrix Documentation",
   "scripts": {
-    "dev": "mintlify dev"
+    "dev": "mintlify dev",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "mintlify": "^4.0.0"
+    "@mintlify/cli": "^4.0.0"
   }
 }
