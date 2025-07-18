@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "VitalMatrix Documentation",
   "scripts": {
-    "dev": "mintlify dev"
+    "dev": "mintlify dev",
+    "build": "mintlify build"
   },
   "devDependencies": {
     "@mintlify/cli": "^4.0.0"
