@@ -3,24 +3,9 @@
   "version": "0.1.0",
   "description": "VitalMatrix Documentation",
   "scripts": {
-    "dev": "mintlify dev",
-    "start": "next start",
-    "export": "next export"
-  },
-  "dependencies": {
-    "next": "^13.5.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "dev": "mintlify dev"
   },
   "devDependencies": {
     "@mintlify/cli": "^4.0.0"
-  },
-  "overrides": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "resolutions": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
   }
 }
