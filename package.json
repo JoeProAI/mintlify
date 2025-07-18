@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "description": "VitalMatrix Documentation",
   "scripts": {
-    "dev": "mint dev",
-    "install-mint": "npm i -g mint"
+    "dev": "mintlify dev"
   },
   "devDependencies": {
-    "mint": "latest"
+    "@mintlify/cli": "^4.0.0"
   }
 }
