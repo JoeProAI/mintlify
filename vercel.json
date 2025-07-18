@@ -1,6 +1,5 @@
 {
-  "framework": "nextjs",
-  "buildCommand": "npx @mintlify/cli@latest install && npx @mintlify/cli@latest dev --no-open",
+  "buildCommand": "npx @mintlify/cli@latest install",
   "installCommand": "npm install",
-  "outputDirectory": ".next"
+  "outputDirectory": "_site"
 }
