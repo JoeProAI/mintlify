@@ -3,12 +3,7 @@
   "version": "0.1.0",
   "description": "VitalMatrix Documentation",
   "scripts": {
-    "dev": "mintlify dev",
-    "start": "node app.js",
-    "build": "echo 'No build needed - serving static files'"
-  },
-  "dependencies": {
-    "express": "^4.18.2"
+    "dev": "mintlify dev"
   },
   "devDependencies": {
     "@mintlify/cli": "^4.0.0"
