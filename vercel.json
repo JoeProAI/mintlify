@@ -1,5 +1,4 @@
 {
-  "buildCommand": "npx @mintlify/cli@latest install",
   "installCommand": "npm install",
-  "outputDirectory": "_site"
+  "outputDirectory": "."
 }
