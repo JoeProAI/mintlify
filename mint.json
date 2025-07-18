@@ -5,13 +5,22 @@
     "dark": "/logo/dark.svg"
   },
   "favicon": "/favicon.svg",
+  "theme": "dark",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#3b82f6",
+    "light": "#60a5fa",
+    "dark": "#2563eb",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#2563eb",
+      "to": "#60a5fa"
+    },
+    "background": {
+      "dark": "#121827"
+    },
+    "flowchart": {
+      "background": "#121827",
+      "border": "#3b82f6",
+      "nodeBackground": "#1e293b"
     }
   },
   "_comment": "Documentation for VitalMatrix",
@@ -162,5 +171,6 @@
   "feedback": {
     "suggestEdit": true,
     "raiseIssue": true
-  }
+  },
+  "style": "/custom.css"
 }
