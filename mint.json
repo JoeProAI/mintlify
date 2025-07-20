@@ -86,6 +86,12 @@
           ]
         },
         {
+          "group": "Community Pulse",
+          "pages": [
+            "features/community-pulse/overview"
+          ]
+        },
+        {
           "group": "Dashboard",
           "pages": [
             "features/dashboard/overview"
