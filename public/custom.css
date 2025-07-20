@@ -1,4 +1,8 @@
-/* VitalMatrix Custom Styling */
+/* VitalMatrix Custom Styling - Updated July 2025 */
+/* Professionally styled dark theme matching main application */
+
+/* Importing Inter font for consistent typography */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
   --primary-blue: #3b82f6;
@@ -8,6 +12,29 @@
   --secondary-bg: #1e293b;
   --text-light: #f8fafc;
   --text-secondary: #94a3b8;
+  --heading-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --body-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+/* Force dark theme */
+html {
+  background-color: var(--dark-bg) !important;
+}
+
+body {
+  background-color: var(--dark-bg) !important;
+  color: var(--text-light) !important;
+}
+
+/* Navigation and sidebar */
+.sidebar, .nav, .navigation {
+  background-color: var(--secondary-bg) !important;
+}
+
+/* Content area */
+.content, .main-content {
+  background-color: var(--dark-bg) !important;
+  color: var(--text-light) !important;
 }
 
 /* Button styles */
@@ -30,15 +57,54 @@
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600 !important;
+  font-family: var(--heading-font) !important;
+  letter-spacing: -0.02em !important;
+}
+
+body, p, li, div {
+  font-family: var(--body-font) !important;
 }
 
 h1 {
-  font-size: 2.5rem !important;
+  font-size: 3.5rem !important;
+  line-height: 1.1 !important;
+  background: linear-gradient(90deg, var(--text-light) 0%, var(--primary-blue) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem !important;
+}
+
+h2 {
+  font-size: 2.25rem !important;
+  margin-top: 2.5rem !important;
+}
+
+h3 {
+  font-size: 1.75rem !important;
+}
+
+/* Hero section styling */
+.hero-section {
+  padding-top: 4rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem !important;
+  max-width: 768px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  line-height: 1.6 !important;
+  color: var(--text-secondary) !important;
 }
 
 /* Navigation styling */
 .sidebar-nav-item {
   border-radius: 6px !important;
+  padding: 8px 12px !important;
+  margin-bottom: 4px !important;
+  transition: all 0.2s ease !important;
 }
 
 .sidebar-nav-item:hover {
@@ -54,12 +120,16 @@ h1 {
 .code-block {
   background-color: #0f172a !important;
   border-radius: 8px !important;
+  border: 1px solid rgba(59, 130, 246, 0.2) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
 }
 
 /* Table styling */
 table {
   border-collapse: separate !important;
   border-spacing: 0 !important;
+  border: 1px solid rgba(59, 130, 246, 0.2) !important;
+  margin: 1.5rem 0 !important;
   border-radius: 8px !important;
   overflow: hidden !important;
 }
